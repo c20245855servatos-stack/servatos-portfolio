@@ -1,0 +1,142 @@
+
+
+body {
+    text-align: center;
+    background-color: rgb(176, 238, 238);
+}
+
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+    
+}
+
+
+main section {
+    flex: 1;
+    min-width: 280px;
+    
+    padding: 20px
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        padding: 15px;
+        margin: 10px;
+        gap: 20px;
+    }
+
+    main section {
+        flex: 1 1 100%;
+        min-width: 0;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 100px;
+        color: red;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 48px;
+        color: blue;
+    }
+}
+
+nav a {
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: rgb(28, 55, 209);
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s ease;
+}
+
+button:hover {
+    background-color: rgb(179, 59, 11);
+    color: black;
+}
+
+h2{
+    color:rgb(140, 224, 147);
+}
+h1{
+
+
+    color:rgb(2, 25, 87);
+}
+
+
+
+#about{
+    text-align: left;
+ background-color: rgb(8, 99, 202);
+  gap: 70px;
+    padding: 60px;
+    margin: 70px;
+}
+
+#collection{
+ text-align: left;
+ background-color: rgb(8, 99, 202);
+  gap: 70px;
+    padding: 60px;
+    margin: 70px;
+}
+
+#contact{
+ text-align: left;
+ background-color: rgb(8, 99, 202);
+  gap: 50px;
+    padding: 100px;
+    margin: 50px;
+}
